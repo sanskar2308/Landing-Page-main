@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopeasy</title>
+    <!--Bootstrap lib-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"
+        integrity="sha512-BOsvKbLb0dB1IVplOL9ptU1EYA+LuCKEluZWRUYG73hxqNBU85JBIBhPGwhQl7O633KtkjMv8lvxZcWP+N3V3w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--font-family-->
+    <link href="https://fonts.google.com/specimen/Montserrat?query=mon" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--local css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="title">
+        <!--nav-->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-light fixed-top">
+                <a class="navbar-brand" href="#">
+                    <i class="brandlogo fa-brands fa-shopify fa-2x"></i> shopeasy
+                </a>
+                <form class=" search d-flex" role="search">
+                    <input class="me-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="space collapse navbar-collapse" id="navbarNavDropdown">
+
+                    <ul class="navbar-nav mx-auto mb-2 mb-g-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Electronics
+                              </a>
+                              <ul class="dropdown-menu" area-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Laptops</a></li>
+                                <li><a class="dropdown-item" href="#">Headphones</a></li>
+                                <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                              </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Appliances
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Air-conditioner</a></li>
+                                <li><a class="dropdown-item" href="#">Washing Machine</a></li>
+                                <li><a class="dropdown-item" href="#">TV</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--content-->
+            <div class="row">
+                <div class="col-lg-12">
+                            <div class="flip1 carousel-item active">
+                                <div class="landing">
+                                    <h1 >Sell is live now</h1>
+                                    <h3>Your ultimate online shopping destination. Wide range. Great prices. Easy checkout.</h3>
+                                </div>
+                                <div>
+                                    <img class="shop" src="shpimg.jpg" alt="imge1">
+                                </div>
+                            </div>
+                </div>
+            </div>
+    </section>
+    <section id="features" >
+        <div class="row">
+            <div class=" feat-box col-lg-4">
+                <i class="giphy fa-solid fa-circle-check fa-flip fa-4x"></i>
+                <h3>Easy to use.</h3>
+                <p>Simple and easy UI every age group can use it with ease</p>
+            </div>
+            <div class="feat-box col-lg-4">
+                <i class="giphy fa-solid fa-bullseye  fa-fade fa-4x"></i>
+                <h3>Verified Sellers</h3>
+                <p>All product sellers are verified and certified and give all the valid warranties on selected products
+                </p>
+            </div>
+            <div class=" feat-box col-lg-4">
+                <i class="giphy fa-solid fa-heart fa-flip fa-4x"></i>
+                <h3>Various Products with varieties and Discount</h3>
+                <p>There are lots of sellers from different location are available with various discounts and varieties
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="preview">
+        <div class="row">
+
+            <div class="pre col-lg-3 col-md-6">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="mac.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-info">Bestseller</button></h5>
+                        <p class="card-text">Unleash your productivity with our exceptional Mac.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pre col-lg-3 col-md-6">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="tv2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-info">Bestseller</button></h5>
+                        <p class="card-text">Transform your entertainment experience with our exceptional TV.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="pre col-lg-3 col-md-6">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="headphone.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-info">Bestseller</button></h5>
+                        <p class="card-text">Immerse yourself in exceptional sound with our state-of-the-art headphones.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="pre col-lg-3 col-md-6">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="iphone.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-info">Bestseller</button></h5>
+                        <p class="card-text">Discover the future of communication with our exceptional iPhone.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="preview">
+        <div class="row">
+
+            <div class="pre col-lg-3 col-md-6">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="shoes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-info">Bestseller</button></h5>
+                        <p class="card-text">Unleash your style and step up your game with our exceptional shoes.</p>
+                        <a href="shoes.html" class="btn btn-primary">Buy</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pre col-lg-3 col-md-6">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="fridge.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-info">Bestseller</button></h5>
+                        <p class="card-text">Unleash your style and elevate your space with our exceptional fridge.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="pre col-lg-3 col-md-6">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="mirrorless cameras.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-info">Bestseller</button></h5>
+                        <p class="card-text">Capture life's moments in stunning detail with our exceptional camera.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="pre col-lg-3 col-md-6">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="washing machine.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-info">Bestseller</button></h5>
+                        <p class="card-text">Experience effortless laundry days with our exceptional washing machine.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+    </section>
+    <section>
+        <footer>
+            <div class="footer-container">
+              <div class="footer-links">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+              <div class="footer-social">
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-info">
+              <p>&copy; 2023 All rights reserved. | Designed by Akash Abhishek</p>
+            </div>
+          </footer>
+          
+
+    </section>
+</body>
+
+</html>
